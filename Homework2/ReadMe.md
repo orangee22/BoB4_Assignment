@@ -27,4 +27,4 @@ size_in_mb을 위와 같이 8바이트 자료형인 uint64_t 자료형으로 형변환 해주어 4GB 이
      - FileIoHelperClass 모듈을 이용하요 위와 같이 메모리 매핑 방식을 이용하여 파일을 복사할 수 있었습니다.
      - 시간 측정 결과, 파일 입출력 방식보다 메모리 매핑 방식이 더 빠르게 처리되는 것을 확인할 수 있었습니다.
 
-<img src="/Homework2/image/Homework2_result.jpg">
+<img src="/Homework2/image/Homework2_result_.jpg">
