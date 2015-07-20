@@ -12,8 +12,9 @@ BoB 4기 취약점 분석 트랙 서승오
 #####################################################################################
 
 <img src="/Homework2/image/Homework2(1).jpg">
+
      - 파일 생성에 사용하는 create_very_big_file() 함수 내부에서,
-        [file_size.QuadPart = (1024 * 1024) * size_in_mb;] 부분이 문제가 됩니다.
+    [file_size.QuadPart = (1024 * 1024) * size_in_mb;] 부분이 문제가 됩니다.
 
 LARGE_INTEGER의 QuadPart의 경우 LONGLONG 자료형으로 8바이트 크기를 가지지만, size_in_mb 은 uint32_t 자료형으로 4바이트 크기를 가집니다.
 따라서 위 연산 결과는 4바이트의 결과값을 가지지만,
@@ -23,5 +24,6 @@ size_in_mb을 위와 같이 8바이트 자료형인 uint64_t 자료형으로 형변환 해주어 4GB 이
 
 
 <img src="/Homework2/image/Homework2_result.jpg">
+
      - FileIoHelperClass 모듈을 이용하요 위와 같이 메모리 매핑 방식을 이용하여 파일을 복사할 수 있었습니다.
      - 시간 측정 결과, 파일 입출력 방식보다 메모리 매핑 방식이 더 빠르게 처리되는 것을 확인할 수 있었습니다.
