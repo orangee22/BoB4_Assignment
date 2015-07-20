@@ -15,10 +15,10 @@ ANSI 인코딩 형식의 문자열과, UNICODE 인코딩 형식의 문자열을 UTF-8 인코딩 형식으�
 5. 현재디렉토리\bob.txt, 현재디렉토리\bob2.txt 삭제
 #####################################################################################
 
-<img src="https://github.com/orangee22/BoB4_Assignment/blob/master/Homework1/Homework1(1).jpg">
+<img src="/image/Homework1(1).jpg">
 
-<img src="https://github.com/orangee22/BoB4_Assignment/blob/master/Homework1/Homework1(2).jpg">
+<img src="/image/Homework1(2).jpg">
 
-<img src="https://github.com/orangee22/BoB4_Assignment/blob/master/Homework1/Homework1(3).jpg">
+<img src="/image/Homework1(3).jpg">
 
-<img src="https://github.com/orangee22/BoB4_Assignment/blob/master/Homework1/Homework1_result.jpg">
+<img src="/image/Homework1_result.jpg">
